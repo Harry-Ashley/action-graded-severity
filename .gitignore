@@ -1,0 +1,38 @@
+# ---- Secrets: NEVER commit ----
+.env
+.env.*
+*.key
+*.pem
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Raw AgentDojo run outputs (large, regenerable via the sweep scripts) ----
+runs/
+runs_raw/
+runs_sweep/
+runs_smoke/
+runs_claude_smoke/
+runs_judges/
+
+# ---- Logs and build artifacts ----
+*.log
+
+# ---- OS and editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Windows WSL download tags
+*:Zone.Identifier

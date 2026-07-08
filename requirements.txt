@@ -1,0 +1,19 @@
+# Core benchmark (pinned: the model-registration shim relies on this version's internals)
+agentdojo==0.1.35
+
+# Provider SDKs for victim models and the judge panel
+openai>=1.0
+anthropic>=0.40
+google-genai>=0.3
+
+# Configuration
+python-dotenv>=1.0
+
+# Analysis and figures
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+krippendorff>=0.6
+
+# Testing
+pytest>=8.0
